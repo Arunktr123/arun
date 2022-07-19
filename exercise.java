@@ -17,11 +17,17 @@ public class exercise {
 //		for (int i = 1; i <=10; i++) {
 //System.out.println(a*i);
 //System.out.println(a-i);
+		
 		// question 2
 //char a1;
 //for (a1 = 'm';a1<='z';a1++)
 //{
 //	System.out.println(a1);
+		
+		
+		//question no:3
+		
+		
 
 //question23
 
@@ -274,28 +280,64 @@ public class exercise {
 		// question no :42
 
 		//
-		int rowNum = 9;
-		  
-		for (int row = 1; row <= rowNum; row++){
-			
-			
-	    for(int space = rowNum; space > row;space--){
-				
-			System.out.print("  ");
-			}
-			
-			
-		int i = 1;
-		for(; i < row; i++) {
-			System.out.print(i +" ");
-		}
-		for(;i > 0;i--) {
-			System.out.print(i +" ");
-		}
-				System.out.println();}
+//		int rowNum = 9;
+//		  
+//		for (int row = 1; row <= rowNum; row++){
+//			
+//			
+//	    for(int space = rowNum; space > row;space--){
+//				
+//			System.out.print("  ");
+//			}
+//			
+//			
+//		int i = 1;
+//		for(; i < row; i++) {
+//			System.out.print(i +" ");
+//		}
+//		for(;i > 0;i--) {
+//			System.out.print(i +" ");
+//		}
+//				System.out.println();}
 		
-			
+		
+		//question no: 13
+		
+		
+//		
+//		int a = 5;
+//		int areaSquare = a*a;
+//
+//		System.out.println("square is " + areaSquare );
+		
+		
+			//question no: 14
+		
+//		int lenght = 10;
+//		int width = 10;
+//		int area = lenght*width;
+//		System.out.println("area of rectamgle is " + area);
 
+		
+		//quetion no: 15
+		
+		
+		Scanner cylinder = new Scanner(System.in);
+		
+		System.out.println("enter radius");
+		
+		int radius = cylinder.nextInt();
+		
+		System.out.println("enter height");
+		
+		int height = cylinder.nextInt();
+		
+		double pi = Math.PI;
+		
+		
+	double area = 2*3.14*radius*radius*height;
+	System.out.println("area of cylinder is " + area);
+		
 	}
 
 	}
