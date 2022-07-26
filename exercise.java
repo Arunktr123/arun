@@ -35,10 +35,11 @@ public class exercise {
 //int x1 = ++x - x++ + --x;
 //System.out.println(x1);
 
+
 		// question18
 		// 1)
-		// int a = 30;
-		// int b = 6;
+		 //int a = 5;
+		 //int b = 5;
 
 		// int x=69>>>2;
 
@@ -46,20 +47,23 @@ public class exercise {
 		// System.out.println(a%b++);
 		// System.out.println(a*=b+5);
 		// System.out.println(x);
-		// question 19
-
-		// int a = 28;
-
+		
+		
+		
+// question 19
+		 //int a = 28;
+//
 		// System.out.println(a+= a++ + ++a + --a + a--);
 
 		// question20
-		// int x = 10;
-		// System.out.println(x=x++ * 2+3 * --x);
+		//int x = 5;
+		//System.out.println(x=x++ * 2+3 * --x);
+		//System.out.println(69>>>2);
 
 		// question21
-//		int y =10;
-//		int z = (++y* (y++ + 5));
-//		System.out.println(z);
+		//int y =10;
+		//int z = (++y* (y++ + 5));
+		//System.out.println(z);
 
 		// question 22
 		// char c = 'z';
@@ -322,22 +326,80 @@ public class exercise {
 		//quetion no: 15
 		
 		
-		Scanner cylinder = new Scanner(System.in);
+//		Scanner cylinder = new Scanner(System.in);
+//		
+//		System.out.println("enter radius");
+//		
+//		int radius = cylinder.nextInt();
+//		
+//		System.out.println("enter height");
+//		
+//		int height = cylinder.nextInt();
+//		
+//		double pi = Math.PI;
+//		
+//		
+//	double area = 2*3.14*radius*radius*height;
+//	System.out.println("area of cylinder is " + area);
 		
-		System.out.println("enter radius");
+		//question no: 16
 		
-		int radius = cylinder.nextInt();
-		
-		System.out.println("enter height");
-		
-		int height = cylinder.nextInt();
-		
-		double pi = Math.PI;
+		//int x = 5;
+		//int x1 = ++x-x++ + --x;
 		
 		
-	double area = 2*3.14*radius*radius*height;
-	System.out.println("area of cylinder is " + area);
+		//QUESTION NO : 60
+		 
+			Scanner cs=new Scanner(System.in);
+	 int n;
+	
+	 
+    System.out.println("Enter the range of number:");
+    n=cs.nextInt();
+    int sum=0;
+	 int i;
+    int p=1;
+    for(i=1;i<=n;i++)
+    {
+            sum+=p;
+            p=(p*10)+1;
+    }
+    System.out.println("The sum of the series = "+sum);
 		
-	}
-
-	}
+		
+		
+//		
+//		static double calculateArea(int x, int y)
+//		{
+//		    // Declare value of pi
+//		    //double pi = 3.1415926536;
+//		 
+//		    // Calculate area of outer circle
+//		    double arx = Math.PI * x * x;
+//		 
+//		    // Calculate area of inner circle
+//		    double ary = Math.PI * y * y;
+//		 
+//		    // Difference in areas
+//		    return arx - ary;
+//		}
+//		 
+//		// Driver code
+//		public static void main (String[] args)
+//		{
+//			
+//			
+//		    int x = 2;
+//		    int y = 1;
+//		    System.out.println (calculateArea(x, y));
+		    
+	
+		 }
+}
+	
+	
+	
+	
+		
+		
+	
