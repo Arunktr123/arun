@@ -1,4 +1,4 @@
-package Examples;
+package methods;
 import java.util.Scanner;
 public class ebbill {
 	public static void main (String args[]) {
@@ -9,11 +9,12 @@ public class ebbill {
 double billpay= 0;
 if(unit<100)
 	billpay = unit*1.50;
-else if (unit<200)
+else if (unit<200&&unit>100)
 	billpay = unit*3.00;
 else if (unit<300)
 	billpay = unit*5.00;
 System.out.println("BILL AMOUNT:"+billpay);
+scan.close();
 
 
 
@@ -21,31 +22,6 @@ System.out.println("BILL AMOUNT:"+billpay);
 
 
 
-		
-		
-	 
-		
-		
-		
-		
-		
-		
-		
-				
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 	
 }

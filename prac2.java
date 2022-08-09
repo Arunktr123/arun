@@ -1,8 +1,8 @@
-package Examples;
+package methods;
 import java.util.Scanner;
 
 public class prac2 {
-	public static void main(String[] args){
+	public static void main(String args[]){
      
       
       
@@ -39,9 +39,7 @@ public class prac2 {
 //		else 
 //		{System.out.println("your grade is e ");}
 		
-		for (int i= 1;i<=5;i++)
-		System.out.print("arun  ");
-		
+	
 	
 	
 	
